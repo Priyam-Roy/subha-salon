@@ -54,17 +54,23 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenAdmin }) => {
         }`}
       >
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between">
+         <div className="flex items-center justify-between w-full min-w-0">
             
             {/* Logo and Brand */}
-            <a href="#" className="flex items-center gap-1.5 xs:gap-2 group flex-shrink-0">
+            <a href="#" className="flex items-center gap-1.5 group flex-1 min-w-0">
               <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full border border-[#5c0d1e]/80 p-[1px] shadow-2xs flex-shrink-0 group-hover:scale-105 transition-transform duration-300">
                 <div className="w-full h-full bg-white rounded-full flex items-center justify-center">
                   <Scissors className="w-3.5 h-3.5 text-[#5c0d1e] transform -rotate-45" />
                 </div>
               </div>
-              <div className="flex items-center gap-1 whitespace-nowrap">
-                <span className="font-cinzel text-sm sm:text-base font-black tracking-wide text-stone-950 uppercase">
+              <div className="flex items-center gap-1 min-w-0">
+                <span className="font-cinzel text-xs sm:text-base font-black tracking-wide text-stone-950 uppercase truncate">
+  Subha
+</span>
+
+<span className="font-cinzel text-xs sm:text-base font-black tracking-wide text-[#b8860b] uppercase truncate">
+  Salon
+</span>
                   Subha
                 </span>
                 <span className="font-cinzel text-sm sm:text-base font-black tracking-wide text-[#b8860b] uppercase">
