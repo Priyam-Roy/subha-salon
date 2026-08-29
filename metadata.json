@@ -1,0 +1,6 @@
+{
+  "name": "Subha Salon - Luxury Unisex Salon & Spa",
+  "description": "Premium unisex salon in black, white, gold, and deep maroon featuring bespoke hair, beauty, bridal, and grooming services with online booking and admin management.",
+  "requestFramePermissions": ["notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
