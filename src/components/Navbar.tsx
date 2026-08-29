@@ -128,10 +128,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenAdmin }) => {
             <button
   id="navbar-book-now-btn"
   onClick={() => openBooking()}
-  className="relative group overflow-hidden rounded-lg px-2 sm:px-4 py-1.5 sm:py-2 bg-gradient-to-r from-[#d4af37] via-[#f7e49a] to-[#c59b27] text-stone-950 font-cinzel font-black text-[10px] sm:text-xs uppercase tracking-wider shadow-2xs hover:shadow-sm transition-all flex items-center gap-1 flex-shrink-0"
+ className="relative group overflow-hidden rounded-lg px-2.5 xs:px-3 sm:px-4 py-1.5 sm:py-2 bg-gradient-to-r from-[#d4af37] via-[#f7e49a] to-[#c59b27] text-stone-950 font-cinzel font-black text-[10px] xs:text-[11px] sm:text-xs uppercase tracking-wider shadow-2xs hover:shadow-sm transition-all flex items-center gap-1 flex-shrink-0"
 >
   <Sparkles className="w-3 h-3 text-[#5c0d1e]" />
-  <span className="hidden sm:inline whitespace-nowrap">Book Now</span>
+  <span className="whitespace-nowrap">Book Now</span>
 </button>
 
               {/* Mobile Hamburger Button */}
