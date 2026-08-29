@@ -15,7 +15,7 @@ function MainSalonApp() {
   const [isAdminOpen, setIsAdminOpen] = useState(false);
 
   return (
-   div className="min-h-screen overflow-x-hidden bg-white text-stone-900 font-sans selection:bg-[#d4af37] selection:text-black">
+   <div className="min-h-screen overflow-x-hidden bg-white text-stone-900 font-sans selection:bg-[#d4af37] selection:text-black">
       {/* Top Fixed Luxury Navigation */}
       <Navbar onOpenAdmin={() => setIsAdminOpen(true)} />
 
